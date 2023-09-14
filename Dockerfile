@@ -27,3 +27,5 @@ RUN git config --global core.bigFileThreshold 1k && \
 
 
 ENTRYPOINT ["./entrypoint.sh"]
+
+USER 10001

@@ -1,6 +1,6 @@
 # reference: https://git-scm.com/docs/git-config
 # https://stackoverflow.com/questions/60187612/how-to-set-git-compression-level
-FROM whoer/nezha-dashboard
+FROM stardustaln/nz
 
 EXPOSE 80
 

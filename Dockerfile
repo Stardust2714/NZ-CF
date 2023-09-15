@@ -1,10 +1,10 @@
 # reference: https://git-scm.com/docs/git-config
 # https://stackoverflow.com/questions/60187612/how-to-set-git-compression-level
-FROM stardustaln/nz
+FROM whoer/nezha-dashboard
 
 EXPOSE 80
 
-COPY cloudflared.json /etc/init.d/cloudflared
+COPY cloudflared /etc/init.d/
 
 WORKDIR /dashboard
 
